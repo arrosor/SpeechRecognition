@@ -1,0 +1,30 @@
+<h1>Speech recognition</h1>
+
+
+<input name="continuous" type="checkbox" [(ngModel)]="recognition.continuous">
+<label for="continuous">Is continuous</label>
+<br />
+<input name="interimResults" type="checkbox" [(ngModel)]="recognition.interimResults">
+<label for="continuous">Is interimResults</label>
+<br />
+<input name="autoRestart" type="checkbox" [(ngModel)]="isAutoRestart">
+<label for="continuous">Auto restart</label>
+<br />
+<button (click)="startRecornition()">{{isStarted?'Stop':'Start'}}</button>
+<br />
+Last result:
+<br />
+<div class="result">
+  <div *ngFor="let result of resultList">
+    Final result: {{result.result.isFinal}} alternatives count: {{result.alternativs.length}}
+    <div *ngFor="let alt of result.alternativs">
+      {{alt.transcript}} : {{alt.confidence*100}}%
+    </div>
+  </div>
+</div>
+<div class="scroller">
+  <div *ngFor="let line of log">
+    {{line}}
+    <br />
+  </div>
+</div>

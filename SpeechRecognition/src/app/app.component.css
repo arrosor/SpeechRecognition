@@ -1,0 +1,8 @@
+.scroller {
+  width: 200px;
+  height: 400px;
+  max-width: 200px;
+  max-height: 400px;
+  background-color: bisque;
+  overflow:scroll;
+}

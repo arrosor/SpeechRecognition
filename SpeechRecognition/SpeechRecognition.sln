@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "SpeechRecognition", "SpeechRecognition.esproj", "{DBBB961C-BBA2-4CD6-A991-B89A903B96CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBBB961C-BBA2-4CD6-A991-B89A903B96CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBBB961C-BBA2-4CD6-A991-B89A903B96CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBBB961C-BBA2-4CD6-A991-B89A903B96CA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DBBB961C-BBA2-4CD6-A991-B89A903B96CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBBB961C-BBA2-4CD6-A991-B89A903B96CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBBB961C-BBA2-4CD6-A991-B89A903B96CA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2451401-2FD1-4E29-AFB3-D2746F86D43F}
+	EndGlobalSection
+EndGlobal

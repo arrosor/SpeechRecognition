@@ -1,0 +1,2 @@
+C:\Projects\SpeechRecognition\SpeechRecognition\obj\Debug\SpeechRecognition.esproj.SuggestedBindingRedirects.cache
+C:\Projects\SpeechRecognition\SpeechRecognition\obj\Debug\SpeechRecognition.esproj.CoreCompileInputs.cache
